@@ -1,0 +1,100 @@
+/* Generell layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #202122;
+}
+
+header {
+    background-color: #336699;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* Sidemeny */
+.side-menu {
+    width: 200px;
+    background-color: #e9ecef;
+    padding: 20px;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin: 10px 0;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: #202122;
+}
+
+.side-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hovedinnhold */
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+main article h2 {
+    margin-top: 0;
+}
+
+/* Seksjoner i artikkelen */
+main article section {
+    margin-bottom: 40px;
+}
+
+main article section h3 {
+    color: #336699;
+}
+
+main article ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+main article ul li {
+    margin: 5px 0;
+}
+
+/* Bunntekst */
+footer {
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
